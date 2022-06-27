@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                $('.jQ').click(function(){
+                    $('#colorDiv').css('background-color', this.innerHTML.toLowerCase())
+                })
+            })
+        </script>
+        <style>
+            #colorDiv{
+                margin: auto;
+                font-size: xx-large;
+                padding: 5% 0%;
+                margin: 0% 5%;
+                text-align: center;
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="colorDiv">
+            Change My color!
+        </div>
+        <div style="margin-top: 5%">
+            <button class="jQ">Purple</button>
+            <button class="jQ">Green</button>
+            <button class="jQ">Orange</button>
+        </div>
+    </body>
+</html>

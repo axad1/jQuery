@@ -2,6 +2,6 @@
 $('input').val("Hello World")
 
 // get value
-function func(){
+$('button').click(function(){
     alert($('input').val())
-}
+})

@@ -1,0 +1,3 @@
+$('img').draggable()
+
+$('img').droppable()

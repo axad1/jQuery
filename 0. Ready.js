@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('h1').css("color", "red")
 })
 
-// anonymous function
+// with anonymous function
 $(function(){
     $('h1').css("color", "red")
 })

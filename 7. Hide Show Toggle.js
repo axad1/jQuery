@@ -1,3 +1,5 @@
+// Hide, Show, Toggle, Slide, Fade, and Animate. WOW!
+
 // hide the image
 $('img').hide()
 // show the image
